@@ -33,7 +33,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>⚛️🔥💬</h1>
+        <h1>🎉 Chat Party 🎉</h1>
         <SignOut />
       </header>
       <section>
@@ -53,7 +53,7 @@ export const SignIn = (props) => {
   return (
     <>
       <button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</button>
-      <p>Do not violate the community guidelines or you will be banned for life!</p>
+      {/* <p>Do not violate the community guidelines or you will be banned for life!</p> */}
     </>
   )
 }
@@ -69,7 +69,7 @@ export const ChatRoom = () => {
   const dummy = useRef()
 
   const messagesRef = firestore.collection('messages')
-  const query = messagesRef.orderBy('createdAt').limit(25)
+  const query = messagesRef.orderBy('createdAt').limit(50)
 
   const [messages] = useCollectionData(query, { idField: 'id' })
 
