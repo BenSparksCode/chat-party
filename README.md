@@ -15,3 +15,6 @@
 
 - Learn to use React-Firebase-Hooks (useAuthState, useCollectionData) ✅
 - Learn Firebase rules for more complex validation and security ✅
+
+## Screenshot
+![Chat Party](/images/chat-party.jpg)
