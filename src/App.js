@@ -9,10 +9,10 @@ import 'firebase/analytics';
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { useCollectionData } from 'react-firebase-hooks/firestore'
 
-const API_KEY = process.env.REACT_APP_FIREBASE_API
+// const API_KEY = process.env.REACT_APP_FIREBASE_API
 
 firebase.initializeApp({
-  apiKey: API_KEY,
+  apiKey: "AIzaSyD-TU4RtQ5W-c0Xy8HTxrBqNhdygUPvoL8",
   authDomain: "chat-party-60343.firebaseapp.com",
   projectId: "chat-party-60343",
   storageBucket: "chat-party-60343.appspot.com",
